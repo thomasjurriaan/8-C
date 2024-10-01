@@ -1,0 +1,59 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(45deg, #ff6b6b, #f7e94f);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.about-section, .schedule-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.schedule {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.schedule-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.schedule-item:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#event-image {
+    width: 300px;
+    margin: 20px 0;
+}
+
